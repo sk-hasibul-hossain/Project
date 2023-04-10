@@ -1,0 +1,16 @@
+{
+  "java.project.referencedLibraries": {
+    "include": [
+      "lib/**/*.jar",
+      "e:\\practice\\Project\\ml libarry\\javaml-0.1.7.jar",
+      "e:\\practice\\Project\\ml libarry\\lib\\ajt-2.9.jar",
+      "e:\\practice\\Project\\ml libarry\\lib\\commons-math-1.2.jar",
+      "e:\\practice\\Project\\ml libarry\\lib\\Jama-1.0.2.jar",
+      "e:\\practice\\Project\\ml libarry\\lib\\libsvm.jar",
+      "e:\\practice\\Project\\ml libarry\\lib\\weka.jar"
+    ],
+    "exclude": [
+      "e:\\practice\\Project\\ml libarry\\lib\\Jama-1.0.2.jar"
+    ]
+  }
+}
