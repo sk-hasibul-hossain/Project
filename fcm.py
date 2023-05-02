@@ -23,8 +23,7 @@ def fcm_image_segmentation(image, n_clusters, m, epsilon=1e-8, max_iter=100):
             np.sum(fuzzy_memberships * m, axis=0)[:, np.newaxis]
 
         # Check for convergence
-        if np.allclose(centers, centers_prev):
-            break
+        
 
     # Reshape the membership matrix into the shape of the original image
     seg = np.argmax(fuzzy_memberships, axis=1).reshape(image.shape)
